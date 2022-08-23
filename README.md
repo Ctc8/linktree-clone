@@ -1,2 +1,2 @@
 # linktree-clone
-project
+project use in iPhone12
