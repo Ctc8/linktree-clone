@@ -4,48 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script 
-        src="https://kit.fontawesome.com/94eeba7e1c.js"
-        crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/94eeba7e1c.js" crossorigin="anonymous"> </script>
 
     <link rel="stylesheet" href="./reset.css"/>
     <link rel="stylesheet" href="./style.css"/>
 
     <title>@Linktree</title>
 </head>
-<body>
+
+    <body>
     <section class="header">
         <img class="profileImage" src="blankAvatar.png" alt="" height="150" width="150" />
-        <p class="accountAddress"> @Ctc8 - Collin Chuang</p>
-        <p class="tagline"> UC Merced </p>
-        <div class="socialRow">
-        <a href="https://github.com/Ctc8">
-            <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://">
-            <i class="fa-brands fa-twitter"></i>
-        </a>
-        <a href="https://">
-            <i class="fa-brands fa-youtube"></i>
-        </a>
-        <a href="https://">
-            <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="https://">
-            <i class="fa-brands fa-discord"></i>
-        </a>
-        <a href="https://">
-            <i class="fa-brands fa-linkedin"></i>
-        </a>
-        </div>
+        <p id="accountAddress"> @Ctc8 - <span> id="name"</span></p>
+        <p id="tagline"> UC Merced </p>
+        <div id="socialRow"></div>
     </section>
 
-    <section class="whereNext">
+    <!-- Where To Next?  -->
+
+    <section id="whereNext">
         <h2> Where to next? </h2>
-        <button class="whiteButton"> See developer portfolio </button>
-        <button class="whiteButton"> About myself </button>
     </section>
+
+    <!-- Join My Newsletter -->
 
     <section class="newsLetter">
         <h2> Join my newsletter </h2>
@@ -67,12 +48,14 @@
         </div>
     </section>
 
+    <!-- Visit My Website -->
 
     <section class="website">
         <h2>Visit my website</h2>
         <button class="whiteButton"> Website</button>
     </section>
 
+    <script src="./main.js"></script>
 
     </body>
 </html>
