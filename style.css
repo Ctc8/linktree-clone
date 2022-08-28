@@ -15,7 +15,7 @@ a {
     color:white
 }
 
-h2 {
+h2 { /* Where To Next */
     font-size: 1.5em;
     font-weight: bold;
     text-transform: capitalize
@@ -57,7 +57,7 @@ h2 {
 #whereNext {
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    row-gap: 30px;
     padding: 7px 0px 8px 0px; 
     
 }
@@ -65,80 +65,13 @@ h2 {
 .whiteButton {
     background-color: white;
     border: none;
-    border-radius: 7px;
-    padding: 16px;
-    font-size: 0.8em;
+    border-radius: 100px;
+    padding: 25px;
+    font-size: 0.9em;
     text-transform: capitalize;
     color: #2c9ce4;
     font-family: Helvetica;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
     text-decoration: none;
     
-}
-
-.card {
-    background: rgb(255, 255, 255);
-    color: rgb(66, 66, 66);
-    margin-top: 8px;
-    padding: 8px;
-    text-align: left;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.card p {
-    line-height: 1.3em;
-}
-
-.card input {
-    border: 0.5px solid #555;
-    border-radius: 6px;
-    padding: 8px;
-    font-size: 0.9em;
-}
-
-.card .formFields {
-    display: flex;
-    flex-direction: row;
-    padding: 12px 0px;
-    justify-content: space-between;
-
-}
-
-.card label {
-    display: flex;
-    flex-direction: column;
-    width: 49%
-}
-
-.card label span {
-    font-size: 0.8em;
-    font-weight: bold;
-}
-
-.blueButton {
-    width: 100%;
-    background-color: #0093E9;
-    border: none;
-    border-radius: 7px;
-    padding: 16px;
-    font-size: 1.3em;
-    text-transform: capitalize;
-    color: #ffffff;
-    font-family: Helvetica;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
-}
-
-.website {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    flex-direction: column;
-    row-gap: 8px;
-    padding: 16px;
-}
-
-.newsLetter {
-    padding: 16px 0px 8px 0px;
 }
