@@ -1,4 +1,6 @@
 # linktree-clone
-project wip, use in iPhone12
 
-reference: https://prnt.sc/B9-CBnqVHX4e
+Intended for iPhone 12 but compatible for most devices.
+
+
+https://collinchuanglinktree.netlify.app/
