@@ -1,8 +1,8 @@
 export const creatorDetails = {
     accountHandle: '@Ctc8',
     creatorName: 'Collin Chuang',
-    tagline: 'insert tagline here',
-    profilePic: 'blankAvatar.png',
+    tagline: 'UC Merced',
+    profilePic: 'pic.png',
 }
 
 export const socialLinks = [
@@ -24,12 +24,6 @@ export const socialLinks = [
         active: true,
     },
 
-    {
-        url: 'https://open.spotify.com/user/asapkid12?si=7201834e4320401d',
-        iconName: 'spotify',
-        active: true,
-    },
-
 ];
 
 export const whereNextLinks = [
@@ -39,7 +33,7 @@ export const whereNextLinks = [
         active: true,
         },
     {
-        url: '',
+        url: 'https://about-me-collinc.netlify.app/',
         text: 'About Me',
         active: true,
         },
@@ -48,4 +42,4 @@ export const whereNextLinks = [
         text: 'Website',
         active: true,
         },    
-]
+];
