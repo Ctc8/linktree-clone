@@ -33,7 +33,7 @@ export const whereNextLinks = [
         active: true,
         },
     {
-        url: 'https://about-me-collinc.netlify.app/',
+        url: 'https://ctc8.github.io/about-me/',
         text: 'About Me',
         active: true,
         },
