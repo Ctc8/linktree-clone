@@ -30,7 +30,7 @@ export const whereNextLinks = [
     {
         url: '',
         text: 'My Developer Portfolio',
-        active: true,
+        active: false,
         },
     {
         url: 'https://ctc8.github.io/about-me/',
